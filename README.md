@@ -19,4 +19,4 @@ For example:
 
 ### Linux launcher
 
-Copy `./theme-hospital-dosbox.desktop` to launcher applications directory of the distro (<code><kbd>/home/<var>username</var>/.local/share/applications/</kbd></code> on Debian like's ditros). ⚠️ The lancher file needs to be personalized with the path to the game directory
+Copy `./theme-hospital-dosbox.desktop` to launcher applications directory of the distro (<code><kbd>/home/<var>username</var>/.local/share/applications/</kbd></code> on Debian like's ditros). ⚠️ The launcher file needs to be personalized with the path to the game directory
