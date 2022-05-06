@@ -1,4 +1,4 @@
-# Th3m3 H0sp1t4l *DOSBox*
+# Th3m3 H05p1t4| *DOSBox*
 
 ## Installation
 
