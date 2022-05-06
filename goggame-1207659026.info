@@ -1,0 +1,46 @@
+
+{
+	"version" : 1,
+	"gameId" : "1207659026",
+	"rootGameId" : "1207659026",
+	"standalone" : true,
+	"dependencyGameId" : "",
+	"language"         : "english",
+	"name"             : "Theme Hospital",
+	"playTasks"        : [
+		{
+			"isPrimary" : true,
+			"type"      : "FileTask",
+			"path"      : "DOSBOX\\dosbox.exe",
+			"workingDir" : "DOSBOX",
+			"arguments"  : "-conf \"..\\dosboxTH.conf\" -conf \"..\\dosboxTH_single.conf\" -noconsole -c \"exit\""
+		},
+		{
+			"name" : "Graphic Mode Setup",
+			"type" : "FileTask",
+			"path" : "DOSBOX\\GOGDOSConfig.exe",
+			"workingDir" : "DOSBOX",
+			"arguments"  : "1207659026"
+		},
+		{
+			"name" : "Run Multiplayer Game",
+			"type" : "FileTask",
+			"path" : "DOSBOX\\GOGDOSConfig.exe",
+			"workingDir" : "DOSBOX",
+			"arguments"  : "1207659026 NET"
+		}
+	],
+	"supportTasks"     : [
+		{
+			"name" : "Support",
+			"type" : "URLTask",
+			"link" : "http://www.gog.com/en/support/theme_hospital"
+		},
+		{
+			"name" : "Manual",
+			"type" : "FileTask",
+			"path" : "manual.pdf",
+			"workingDir" : ""
+		}
+	]
+}

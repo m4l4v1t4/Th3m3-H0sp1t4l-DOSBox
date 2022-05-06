@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Theme Hospital MSDOS
+GenericName=TH Dos
+Comment=1997 retro game doing a simulation about a hospital management
+Comment[pt_BR]=Jogo retrô de 1997 que simula um hospital. Estratégia.
+Encoding=UTF-8
+Type=Application
+Exec=dosbox -conf ~/theme-hospital/dosboxTH.conf ~/theme-hospital/HOSPITAL.EXE
+Path=~/theme-hospital
+Terminal=false
+Icon=~/theme-hospital/theme-hospital_512x512.png
+Categories=Simulation;StrategyGame;Game;
